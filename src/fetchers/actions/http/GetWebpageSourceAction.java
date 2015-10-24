@@ -24,15 +24,14 @@ public class GetWebpageSourceAction extends FetcherAction<String> {
         this(uri, false, null);
     }
 
-
     @Override
-    public String executeAction(SeleniumFetcher<String> selenium) {
+    public void executeAction(SeleniumFetcher selenium) {
         selenium.getDriver().get(this.uri);
         if(this.waitUntilFullLoad) {
             WebDriverWait wait = new WebDriverWait(selenium.getDriver(), 10);
             wait.until(ExpectedConditions.presenceOfElementLocated(this.domWaitElement));
         }
 
-        return selenium.getDriver().getPageSource();
+        this.setCompleted(selenium.getDriver().getPageSource());
     }
 }

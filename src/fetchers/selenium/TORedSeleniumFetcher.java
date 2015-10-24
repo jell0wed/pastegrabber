@@ -1,30 +1,48 @@
 package fetchers.selenium;
 
 import fetchers.FetcherAction;
-import fetchers.utils.TORCheckup;
+import fetchers.FetcherException;
+import fetchers.actions.http.TORCheckupAction;
+import fetchers.actions.results.TORCheckup;
 import fetchers.utils.TORConfiguration;
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Created by jeremiep on 15-10-22.
  */
-public class TORedSeleniumFetcher<T> extends SeleniumFetcher<T> {
+public class TORedSeleniumFetcher extends SeleniumFetcher {
     private TORConfiguration tor_config;
     private TORCheckup lastCheckup = null;
+    private Date nextCheckupDate = Calendar.getInstance().getTime();
 
     public TORedSeleniumFetcher(TORConfiguration config) {
         this.tor_config = config;
     }
 
-    public TORCheckup newCheckup() {
-        // execute checkup
+    public void newCheckupIfNeeded() throws FetcherException {
+        // build check
+        if(this.nextCheckupDate.before(Calendar.getInstance().getTime())) {
+            Calendar cal = Calendar.getInstance();
+            cal.add(Calendar.HOUR, 1);
+            this.nextCheckupDate = cal.getTime();
 
-        // build chec
-        if(lastCheckup == null) {
+            // execute checkup
+            TORCheckupAction checkupAction = new TORCheckupAction();
+            this.execute(checkupAction);
 
+            this.lastCheckup = checkupAction.getExecutedValue();
         }
+    }
+
+    @Override
+    protected void executeAction(FetcherAction action) throws FetcherException {
+        this.newCheckupIfNeeded();
+
+        super.executeAction(action);
     }
 
     @Override

@@ -8,7 +8,8 @@ public class TORConfiguration {
     private int port;
 
     public TORConfiguration(String hostname, int port) {
-
+        this.hostname = hostname;
+        this.port = port;
     }
 
     public String getHostname() {

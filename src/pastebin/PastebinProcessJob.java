@@ -3,6 +3,7 @@ package pastebin;
 import entities.pastebin.PastebinPost;
 import entities.pastebin.PastebinPostEntry;
 import fetchers.actions.http.GetWebpageSourceAction;
+import fetchers.factories.TORSeleniumFactory;
 import fetchers.selenium.SeleniumFetcher;
 import org.openqa.selenium.By;
 import parsers.pastebin.PastebinPostParser;
@@ -22,9 +23,10 @@ public class PastebinProcessJob implements Callable<PastebinPost> {
 
     @Override
     public PastebinPost call() throws Exception {
-        SeleniumFetcher<String> fetcher = new SeleniumFetcher<>();
+        SeleniumFetcher fetcher = TORSeleniumFactory.getInstance().getNewTextFetcher();
         GetWebpageSourceAction sourceAction = new GetWebpageSourceAction(this.entry.getURL(), false, By.id("footer"));
-        PastebinPostParser parser = new PastebinPostParser(fetcher.execute(sourceAction));
+        fetcher.execute(sourceAction);
+        PastebinPostParser parser = new PastebinPostParser(sourceAction.getExecutedValue());
 
         return new PastebinPost(parser.tryParse());
     }

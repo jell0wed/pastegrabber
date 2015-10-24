@@ -10,7 +10,7 @@ import java.util.LinkedList;
  */
 public class TORSeleniumFactory {
     private static TORSeleniumFactory instance = null;
-    private LinkedList<TORedSeleniumFetcher<String>> loadedTextFetchers = new LinkedList<>();
+    private LinkedList<TORedSeleniumFetcher> loadedTextFetchers = new LinkedList<>();
     private TORConfiguration[] availableConfigurations;
 
     public static TORSeleniumFactory getInstance() {
@@ -29,16 +29,16 @@ public class TORSeleniumFactory {
     private void loadTextFetchers() {
         this.loadedTextFetchers.clear();
         for(TORConfiguration config : this.availableConfigurations) {
-            this.loadedTextFetchers.push(new TORedSeleniumFetcher<>(config));
+            this.loadedTextFetchers.push(new TORedSeleniumFetcher(config));
         }
     }
 
-    public TORedSeleniumFetcher<String> getNewTextFetcher() {
+    public TORedSeleniumFetcher getNewTextFetcher() {
         if(this.loadedTextFetchers.isEmpty()) {
             this.loadTextFetchers();
         }
 
-        TORedSeleniumFetcher<String> nextFetcher = this.loadedTextFetchers.pop();
+        TORedSeleniumFetcher nextFetcher = this.loadedTextFetchers.pop();
         return nextFetcher;
     }
 

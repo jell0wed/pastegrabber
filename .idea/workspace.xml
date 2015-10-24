@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62dcd400-7e8a-4418-a6d2-3d4b84ede78b" name="Default" comment="" />
+    <list default="true" id="167c1731-baee-40f3-a655-5f239f63cf77" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetchers/FetcherActionException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetchers/FetcherActionResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetchers/actions/results/TORCheckup.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_12_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_httpclient_commons_httpclient_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fetchers/utils/TORCheckup.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fetchers/BaseFetcher.class" afterPath="$PROJECT_DIR$/build/classes/main/fetchers/BaseFetcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fetchers/http/BaseHTTPFetcher.class" afterPath="$PROJECT_DIR$/build/classes/main/fetchers/http/BaseHTTPFetcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fetchers/FetcherAction.class" afterPath="$PROJECT_DIR$/build/classes/main/fetchers/FetcherAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fetchers/actions/http/GetWebpageSourceAction.class" afterPath="$PROJECT_DIR$/build/classes/main/fetchers/actions/http/GetWebpageSourceAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fetchers/http/HTTPTextFetcher.class" afterPath="$PROJECT_DIR$/build/classes/main/fetchers/http/HTTPTextFetcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/MainTest.class" afterPath="$PROJECT_DIR$/build/classes/main/MainTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/pastebin/PastebinGrabJob.class" afterPath="$PROJECT_DIR$/build/classes/main/pastebin/PastebinGrabJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/pastebin/PastebinPostQueue.class" afterPath="$PROJECT_DIR$/build/classes/main/pastebin/PastebinPostQueue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/pastebin/PastebinProcessJob.class" afterPath="$PROJECT_DIR$/build/classes/main/pastebin/PastebinProcessJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/pastebin/PastebinService.class" afterPath="$PROJECT_DIR$/build/classes/main/pastebin/PastebinService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fetchers/selenium/SeleniumFetcher.class" afterPath="$PROJECT_DIR$/build/classes/main/fetchers/selenium/SeleniumFetcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/BaseFetcher.java" afterPath="$PROJECT_DIR$/src/fetchers/BaseFetcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/http/BaseHTTPFetcher.java" afterPath="$PROJECT_DIR$/src/fetchers/http/BaseHTTPFetcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/FetcherAction.java" afterPath="$PROJECT_DIR$/src/fetchers/FetcherAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/actions/http/GetWebpageSourceAction.java" afterPath="$PROJECT_DIR$/src/fetchers/actions/http/GetWebpageSourceAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/http/HTTPTextFetcher.java" afterPath="$PROJECT_DIR$/src/fetchers/http/HTTPTextFetcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainTest.java" afterPath="$PROJECT_DIR$/src/MainTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pastebin/PastebinGrabJob.java" afterPath="$PROJECT_DIR$/src/pastebin/PastebinGrabJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pastebin/PastebinProcessJob.java" afterPath="$PROJECT_DIR$/src/pastebin/PastebinProcessJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/selenium/SeleniumFetcher.java" afterPath="$PROJECT_DIR$/src/fetchers/selenium/SeleniumFetcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/actions/http/TORCheckupAction.java" afterPath="$PROJECT_DIR$/src/fetchers/actions/http/TORCheckupAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/utils/TORConfiguration.java" afterPath="$PROJECT_DIR$/src/fetchers/utils/TORConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/factories/TORSeleniumFactory.java" afterPath="$PROJECT_DIR$/src/fetchers/factories/TORSeleniumFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetchers/selenium/TORedSeleniumFetcher.java" afterPath="$PROJECT_DIR$/src/fetchers/selenium/TORedSeleniumFetcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pastegrabber.iml" afterPath="$PROJECT_DIR$/pastegrabber.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="pastegrabber.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,25 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SeleniumFetcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fetchers/selenium/SeleniumFetcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TORedSeleniumFetcher.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TORedSeleniumFetcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fetchers/selenium/TORedSeleniumFetcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29801324">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,16 +78,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TORCheckupAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fetchers/actions/http/TORCheckupAction.java">
+      <file leaf-file-name="GetWebpageSourceAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fetchers/actions/http/GetWebpageSourceAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.5365854">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,20 +92,54 @@
         <entry file="file://$PROJECT_DIR$/src/fetchers/FetcherAction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PastebinGrabJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinGrabJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="126" selection-start-line="27" selection-start-column="126" selection-end-line="27" selection-end-column="126" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseFetcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fetchers/BaseFetcher.java">
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PastebinService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PastebinProcessJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinProcessJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#564#565#0" expanded="false" />
+                <element signature="e#598#599#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,9 +148,22 @@
         <entry file="file://$PROJECT_DIR$/src/fetchers/factories/TORSeleniumFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeleniumFetcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fetchers/selenium/SeleniumFetcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="80" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="80" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1119#1120#0" expanded="false" />
+                <element signature="e#1154#1155#0" expanded="false" />
+                <marker date="1445661430162" expanded="true" signature="667:710" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,11 +174,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -218,10 +289,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../c-28-email-filter" value="5730800732000" />
-        <entry key="$PROJECT_DIR$/../c28api-java" value="2871476573000" />
-        <entry key="$PROJECT_DIR$/../c28filter" value="5736900428000" />
-        <entry key="$PROJECT_DIR$" value="2890958432000" />
+        <entry key="$USER_HOME$/Workspaces/c28-client-autodownload" value="1441598307728" />
+        <entry key="$USER_HOME$/Workspaces/c28api-java" value="2883031352756" />
+        <entry key="$USER_HOME$/Workspaces/c28filter" value="5766390933824" />
+        <entry key="$PROJECT_DIR$" value="2891317429004" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -291,58 +362,58 @@
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-base-services-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-base-services-groovy-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-cli-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-core-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-docs-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-launcher-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-messaging-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-model-core-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-resources-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-base-services-groovy-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-ui-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-cli-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-tooling-api-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-core-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-model-groovy-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-native-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-open-api-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-resources-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-tooling-api-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-ui-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-wrapper-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-base-services-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/groovy-all-2.3.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-open-api-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-wrapper-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-launcher-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/gradle-messaging-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-platform-native-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/ant-antlr-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-announce-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-antlr-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-build-comparison-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-build-init-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-code-quality-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-cunit-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-dependency-management-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-diagnostics-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-ear-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-ide-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-language-groovy-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-ide-native-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-ivy-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-jacoco-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-reporting-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-javascript-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-jetty-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-language-groovy-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-language-java-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-language-jvm-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-language-native-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-maven-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-dependency-management-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-ivy-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-announce-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-build-init-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-osgi-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-platform-base-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-platform-jvm-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-platform-native-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-plugin-development-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-plugin-use-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-plugins-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-publish-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-reporting-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-resources-http-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-scala-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-signing-2.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-sonar-2.2.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-cunit-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-maven-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-plugins-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-language-native-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-ear-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-plugin-use-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-platform-jvm-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-build-comparison-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-scala-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-diagnostics-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-platform-base-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-code-quality-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-plugin-development-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-antlr-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-publish-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-language-java-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-ide-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-sonar-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-language-jvm-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-signing-2.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2-bin/ca0flae0itb57he40lyj6fhpp/gradle-2.2/lib/plugins/gradle-jacoco-2.2.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -359,56 +430,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/entities/pastebin/Post.java" />
-        <option value="$PROJECT_DIR$/src/entities/pastebin/PastbinPost.java" />
-        <option value="$PROJECT_DIR$/src/entities/FetchObject.java" />
-        <option value="$PROJECT_DIR$/src/parsers/pastebin/TestBasedParser.java" />
-        <option value="$PROJECT_DIR$/src/parsers/pastebin/entities/PastebinPost.java" />
-        <option value="$PROJECT_DIR$/src/parsers/ParsingException.java" />
-        <option value="$PROJECT_DIR$/src/parsers/pastebin/TextBasedParser.java" />
-        <option value="$PROJECT_DIR$/src/parsers/pastebin/entities/PastebinPostParseData.java" />
-        <option value="$PROJECT_DIR$/src/parsers/BaseParser.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/FetcherException.java" />
         <option value="$PROJECT_DIR$/src/fetchers/http/BaseHTTPFetcher.java" />
-        <option value="$PROJECT_DIR$/src/parsers/pastebin/PastebinPostParser.java" />
-        <option value="$PROJECT_DIR$/src/parsers/pastebin/entities/PastebinPostEntryParseData.java" />
-        <option value="$PROJECT_DIR$/src/pastebin/PastebinGrabber.java" />
-        <option value="$PROJECT_DIR$/src/parsers/ParsedDataset.java" />
-        <option value="$PROJECT_DIR$/src/parsers/pastebin/PastebinParser.java" />
-        <option value="$PROJECT_DIR$/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/MainTest.java" />
-        <option value="$PROJECT_DIR$/res/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/pastebin/PastebinPostQueue.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/entities/pastebin/PastebinPostEntry.java" />
-        <option value="$PROJECT_DIR$/src/entities/pastebin/PastebinPost.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/proxy/TORBaseProxy.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/proxy/TORFetcherBaseProxy.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/proxy/TORSeleniumFetcher.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/actions/FetcherAction.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/actions/http/GETRequest.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/actions/http/GetWebpageSource.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/selenium/SeleniumTextFetcher.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/selenium/BaseSeleniumFetcher.java" />
-        <option value="$PROJECT_DIR$/src/pastebin/PastebinGrabJob.java" />
-        <option value="$PROJECT_DIR$/src/pastebin/PastebinProcessJob.java" />
         <option value="$PROJECT_DIR$/src/fetchers/http/HTTPTextFetcher.java" />
-        <option value="$PROJECT_DIR$/src/pastebin/PastebinService.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/utils/TORConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/fetchers/actions/results/NativeFetcherActionResults.java" />
+        <option value="$PROJECT_DIR$/src/fetchers/FetcherActionResult.java" />
+        <option value="$PROJECT_DIR$/src/fetchers/actions/http/ExecuteTORCheckupAction.java" />
         <option value="$PROJECT_DIR$/src/fetchers/actions/http/GetWebpageSourceAction.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/selenium/SeleniumFetcher.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/factories/TORSeleniumFactory.java" />
-        <option value="$PROJECT_DIR$/src/fetchers/utils/TORCheckup.java" />
         <option value="$PROJECT_DIR$/src/fetchers/FetcherAction.java" />
         <option value="$PROJECT_DIR$/src/fetchers/actions/http/TORCheckupAction.java" />
+        <option value="$PROJECT_DIR$/src/fetchers/selenium/SeleniumFetcher.java" />
         <option value="$PROJECT_DIR$/src/fetchers/BaseFetcher.java" />
+        <option value="$PROJECT_DIR$/src/fetchers/FetcherActionException.java" />
+        <option value="$PROJECT_DIR$/src/fetchers/actions/results/TORCheckup.java" />
+        <option value="$PROJECT_DIR$/src/fetchers/factories/TORSeleniumFactory.java" />
+        <option value="$PROJECT_DIR$/src/pastebin/PastebinGrabJob.java" />
+        <option value="$PROJECT_DIR$/src/pastebin/PastebinProcessJob.java" />
+        <option value="$PROJECT_DIR$/src/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/fetchers/utils/TORConfiguration.java" />
         <option value="$PROJECT_DIR$/src/fetchers/selenium/TORedSeleniumFetcher.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -421,9 +462,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -501,132 +543,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fetchers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fetchers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fetchers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fetchers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pastegrabber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pastebin" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fetchers.actions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="fetchers" />
-      <recent name="entities" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainTest">
@@ -714,74 +651,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -796,16 +665,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -834,21 +693,12 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -879,21 +729,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.MainTest" />
     </list>
@@ -904,53 +739,42 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="62dcd400-7e8a-4418-a6d2-3d4b84ede78b" name="Default" comment="" />
-      <created>1445472606670</created>
+      <changelist id="167c1731-baee-40f3-a655-5f239f63cf77" name="Default" comment="" />
+      <created>1445658891265</created>
       <option name="number" value="Default" />
-      <updated>1445472606670</updated>
-      <workItem from="1445472610145" duration="16773000" />
-      <workItem from="1445526232943" duration="154000" />
-      <workItem from="1445535460018" duration="5913000" />
-      <workItem from="1445658260073" duration="255000" />
+      <updated>1445658891265</updated>
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23095000" />
-  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29899856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43918052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39958376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33034572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -959,7 +783,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fetchers/selenium/TORedSeleniumFetcher.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -968,373 +800,80 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fetchers/selenium/SeleniumFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/selenium/TORedSeleniumFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/actions/http/TORCheckupAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/FetcherAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/BaseFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/factories/TORSeleniumFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/entities/PastebinPostParseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/entities/PastebinPostEntryParseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/PastebinParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/PastebinPostParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="5" selection-start-line="60" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/selenium/SeleniumFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/FetchObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/ParsingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/TextBasedParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/BaseParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22459893">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/65cba03c4f6207f2885f88206fcf52c53f8d111b/httpclient-4.3.3-sources.jar!/org/apache/http/impl/client/HttpClients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62566847">
-          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/65cba03c4f6207f2885f88206fcf52c53f8d111b/httpclient-4.3.3-sources.jar!/org/apache/http/client/methods/HttpPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54545456">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/FetcherException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#199#200#0" expanded="false" />
-            <element signature="e#245#246#0" expanded="false" />
-            <element signature="e#271#272#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33279222">
-          <caret line="799" column="13" selection-start-line="799" selection-start-column="13" selection-end-line="799" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/ParsedDataset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8035714">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.073051944">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinPostQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#863#864#0" expanded="false" />
-            <element signature="e#899#900#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fetchers/http/BaseHTTPFetcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/codegen/CompilerConstants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/2.48.2/42781e8b6bace517131d34a40e26de2f637101a8/selenium-firefox-driver-2.48.2-sources.jar!/org/openqa/selenium/firefox/FirefoxDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33279222">
-          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-          <folding>
-            <element signature="e#4893#4894#0" expanded="false" />
-            <element signature="e#4934#4935#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/pastebin/PastebinPostEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/pastebin/PastebinPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/entities/PastebinPostEntryParseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/PastebinParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/PastebinPostParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="5" selection-start-line="60" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/entities/PastebinPostParseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1589404">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinGrabJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fetchers/http/HTTPTextFetcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#533#534#0" expanded="false" />
+            <element signature="e#563#564#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinProcessJob.java">
+    <entry file="file://$PROJECT_DIR$/src/fetchers/FetcherActionResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="109" selection-start-line="25" selection-start-column="109" selection-end-line="25" selection-end-column="109" />
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#170#171#0" expanded="false" />
+            <element signature="e#202#203#0" expanded="false" />
+            <element signature="e#229#230#0" expanded="false" />
+            <element signature="e#262#263#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fetchers/FetcherActionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16094421">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.48.2/de0b7e3a420bfe01e90d86538a64d955f0dd009b/selenium-support-2.48.2-sources.jar!/org/openqa/selenium/support/ui/FluentWait.java">
+    <entry file="file://$PROJECT_DIR$/src/fetchers/FetcherException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82071716">
-          <caret line="291" column="30" selection-start-line="291" selection-start-column="14" selection-end-line="291" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinService.java">
+    <entry file="file://$PROJECT_DIR$/src/fetchers/BaseFetcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27888447">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/utils/TORConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/fetchers/actions/http/TORCheckupAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17928287">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.2414163">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/utils/TORCheckup.java">
+    <entry file="file://$PROJECT_DIR$/src/fetchers/actions/results/TORCheckup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2988048">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.40236053">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#532#533#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1342,19 +881,116 @@
     <entry file="file://$PROJECT_DIR$/src/fetchers/selenium/SeleniumFetcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <caret line="23" column="80" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="80" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1154#1155#0" expanded="false" />
+            <marker date="1445661430162" expanded="true" signature="667:710" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/BaseParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03218884">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/PastebinPostParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.112660944">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinProcessJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#598#599#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinPostQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25751072">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinGrabJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="126" selection-start-line="27" selection-start-column="126" selection-end-line="27" selection-end-column="126" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pastebin/PastebinService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fetchers/utils/TORConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3010949">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/pastebin/PastebinParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36585367">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fetchers/factories/TORSeleniumFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fetchers/FetcherAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fetchers/selenium/TORedSeleniumFetcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1363,49 +999,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fetchers/actions/http/GetWebpageSourceAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45816734">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.5365854">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/actions/http/TORCheckupAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/FetcherAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/BaseFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetchers/selenium/TORedSeleniumFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29801324">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1486,7 +1082,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: com.google.code.findbugs:jsr305:1.3.9</last-edited>
+          <last-edited>Gradle: cglib:cglib-nodep:2.1_3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

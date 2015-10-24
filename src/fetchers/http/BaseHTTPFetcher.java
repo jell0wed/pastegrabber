@@ -16,7 +16,7 @@ import java.net.URI;
 /**
  * Created by jeremiep on 15-10-21.
  */
-public abstract class BaseHTTPFetcher<T> extends BaseFetcher<T> {
+public abstract class BaseHTTPFetcher extends BaseFetcher {
     private static Logger LOG = Logger.getLogger(BaseHTTPFetcher.class);
 
     // TODO : socket factory

@@ -15,7 +15,7 @@ import java.net.URI;
 /**
  * Created by jeremiep on 15-10-21.
  */
-public class HTTPTextFetcher extends BaseHTTPFetcher<String> {
+public class HTTPTextFetcher extends BaseHTTPFetcher {
     private String uri = "";
 
     public HTTPTextFetcher(String uri) {
@@ -23,7 +23,7 @@ public class HTTPTextFetcher extends BaseHTTPFetcher<String> {
     }
 
     @Override
-    protected String executeAction(FetcherAction<String> action) {
-        return null;
+    protected void executeAction(FetcherAction action) {
+        /*return null;*/
     }
 }
